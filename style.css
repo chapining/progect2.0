@@ -1,0 +1,47 @@
+body{
+	margin:0;
+}
+
+.top_menu {
+	display: flex;
+	align-items: center;
+	background-color: #2e323f;
+	color: #e0e0e2;
+	padding: 2rem;
+}
+
+.main_menu ul {
+	justify-content: space-around;
+	display: flex;
+	list-style: none;
+
+
+}
+
+.main_menu{
+	flex-grow: 1;
+	flex-basis: 0;
+	}
+
+.menu_item {
+	color: #e0e0e2;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+}
+
+.logo {
+	flex-grow: 1;
+	flex-basis: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+
+	}
+
+.rounded {
+	border-radius: 50px;
+	background-color: #A59678;
+	
+	padding:3px;
+}	
+
