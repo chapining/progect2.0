@@ -2,12 +2,14 @@ body{
 	margin:0;
 }
 
-.top_menu {
+.main_header {
 	display: flex;
 	align-items: center;
 	background-color: #2e323f;
 	color: #e0e0e2;
-	padding: 2rem;
+	padding: 0 2rem;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
 }
 
 .main_menu ul {
@@ -26,22 +28,41 @@ body{
 .menu_item {
 	color: #e0e0e2;
 	text-decoration: none;
-	font-family: 'Oswald', sans-serif;
-	font-size: 18px;
+    
 }
 
 .logo {
 	flex-grow: 1;
 	flex-basis: 0;
-	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 
 	}
 
 .rounded {
-	border-radius: 50px;
+	border-radius: 150px;
 	background-color: #A59678;
 	
-	padding:3px;
+	padding: 5px 10px;
 }	
 
+.section_first {
+	background-color: #3B4050;
+	display: flex;
+}
+
+.section_first_left {
+	font-size: 90px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+
+}
+
+.text_black {
+	color: #A59678
+}
+
+.section_first_right {
+	font-size: 24px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
