@@ -230,3 +230,16 @@ nav li {
 	margin-bottom: 1rem;
 }
 
+@media (max-width: 700px) {
+	.section_second {
+		flex-direction: column;
+	}
+
+	.section_second article:not(:last-child) {
+		margin: 0;
+	}
+
+	.section_second h2 {
+		margin: 1rem auto 0.5rem;
+	}
+}
